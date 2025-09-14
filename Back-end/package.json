@@ -1,0 +1,19 @@
+{
+  "name": "nympla",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/frameworks/server.js"
+  },
+  "keywords": [],
+  "author": "Netos Produtions",
+  "license": "ISC",
+  "description": "A system to manage events.",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3",
+    "sequelize": "^6.37.7"
+  }
+}
