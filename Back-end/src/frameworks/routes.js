@@ -5,7 +5,7 @@ const routes = Router();
 
 /* Event Routes */
 routes.get("/event/all", eventController.getAllEvents);
-// routes.get("/event/register", )
+routes.post("/event/register", eventController.registerEvent);
 
 /* User Routes */
 // routes.get("/user/all");

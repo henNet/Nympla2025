@@ -19,6 +19,13 @@ npm run dev
 ```
 # Dev Log
 
+**Aula 02 - 15/09 (segunda)**
+
+- [x] Definição da estrutura da tabela de eventos
+  - [x] Criação do sequilize.js para conexão com o banco
+  - [x] Criação das rotas /event/all e /event/register em Routes.js
+  - [x] Criação das funções controladoras em eventControler.js
+
 **Aula 01 - 09/09 (terça)**
 
 - [x] Definição da estrutura do projeto e download das dependências **express**, **pg**, **cors**, **jsonwebtoken** e **sequelize**
