@@ -19,6 +19,12 @@ npm run dev
 ```
 # Dev Log
 
+**Aula 03 - 16/09 (terça)**
+
+- [x] Definição da estrutura do front-end
+  - [x] Criação do index.html
+  - [x] Criação do arquivo .env para guardar as variáveis de acesso ao banco
+
 **Aula 02 - 15/09 (segunda)**
 
 - [x] Definição da estrutura da tabela de eventos
