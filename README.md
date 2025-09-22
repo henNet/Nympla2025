@@ -19,6 +19,11 @@ npm run dev
 ```
 # Dev Log
 
+**Aula 04 - 22/09 (segunda)**
+
+- [x] Estilização do front com bootstrap
+  - [x] Leitura dos dados do back-end para renderizar o front
+
 **Aula 03 - 16/09 (terça)**
 
 - [x] Definição da estrutura do front-end
