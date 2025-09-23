@@ -19,6 +19,11 @@ npm run dev
 ```
 # Dev Log
 
+**Aula 05 - 23/09 (terça)**
+
+- [x] Estilização do front com bootstrap
+  - [x] Criação do modal e dinamismo com javascript
+
 **Aula 04 - 22/09 (segunda)**
 
 - [x] Estilização do front com bootstrap

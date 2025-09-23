@@ -22,13 +22,32 @@ async function getAllEvents() {
           <h5 class="card-title">${event.title}</h5>
           <p class="card-text">${event.description}</p>
           <div class="d-flex justify-content-center gap-2">
-            <button class="btn btn-secondary">Detalhes</button>
+            <button 
+              id="btnDetails-${event.id}"
+              data-bs-toggle="modal" 
+              data-bs-target="#exampleModal" 
+              class="btn btn-secondary">Detalhes</button>
             <button class="btn btn-primary">Inscrever-se</button>
           </div>
         </div>`;
 
     document.querySelector("main").appendChild(card);
+
+    document
+      .querySelector(`#btnDetails-${event.id}`)
+      .addEventListener("click", updateModal);
   }
+}
+
+function updateModal(event) {
+  let id = event.target.id.split("-")[1];
+
+  let eventSearched = allEvents.filter((e) => e.id == id);
+
+  console.log(eventSearched);
+
+  document.querySelector("#exampleModalLabel").innerHTML =
+    eventSearched[0].title;
 }
 
 getAllEvents();
